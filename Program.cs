@@ -1,10 +1,103 @@
 ﻿// ## Почувствуй себя интерном*
 // 0. Вывести квадрат числа
+
+int firstTaskValue = 6;
+int firstTaskResult = firstTaskValue * firstTaskValue;
+Console.WriteLine(firstTaskResult);
+
+
 // 1. По двум заданным числам проверять является ли первое квадратом второго
+
+int secondTaskFirstValue = 25;
+int secondTaskSecondValue = 5;
+int secondTaskResult = secondTaskSecondValue * secondTaskSecondValue;
+if (secondTaskResult == secondTaskFirstValue)
+{
+Console.WriteLine("Первое число являеться квадратом второго");
+}
+else
+{
+    Console.WriteLine("Первое число не являетсья квадратом второго");
+}
+
+
 // 2. Даны два числа. Показать большее и меньшее число
+
+int firstTaskFirstValue = 3;
+int firstTaskSecondValue = 8;
+if (firstTaskFirstValue > firstTaskSecondValue)
+{
+Console.WriteLine ("Первое число больше второго");
+}
+else
+{
+    Console.WriteLine("Второе число больше первого");
+}
+
+
 // 3. По заданному номеру дня недели вывести его название
+
+int weekDay = 3;
+if (weekDay == 0)
+{
+Console.WriteLine("Понедельник");
+}
+else if (weekDay == 1)
+{
+Console.WriteLine("Вторник");
+}
+else if (weekDay == 2)
+{
+Console.WriteLine("Среда");
+}
+else if (weekDay == 3)
+{
+Console.WriteLine("Четверг");
+}
+else if (weekDay == 4)
+{
+Console.WriteLine("Пятница");
+}
+else if (weekDay == 5)
+{
+Console.WriteLine("Суббота");
+}
+else if (weekDay == 6)
+{
+Console.WriteLine("Воскресенье");
+}
+else
+{
+    Console.WriteLine("Мы не знаем такого значения");
+}
+
 // 4. Найти максимальное из трех чисел
+
+int a = 40;
+int b = 100;
+int c = 324;
+
+int max = a;
+
+if(a < b){
+    max = b;
+}
+else
+{
+    max = a;
+}
+if (max < c)
+{
+    max = c;
+}
+Console.WriteLine(max);
+
+
 // 5. Написать программу вычисления значения функции y = f(a)
+
+
+
+
 //6. Выяснить является ли число чётным
 //7. Показать числа от -N до N
 //8. Показать четные числа от 1 до N
