@@ -237,17 +237,10 @@ else if(resul != num * num)
 
 Console.Write("Введите значение X true или false: ");
 bool x = bool.Parse(Console.ReadLine());
-
 Console.Write("Введите значение Y true или false: ");
 bool y = bool.Parse(Console.ReadLine());
-
-bool a = !(x || y);
-
-  Console.WriteLine(a);
-
-bool b = !x ^ !y;
-
-Console.WriteLine(b);
+bool a = !(x || y) == !x ^ !y;
+Console.WriteLine(a);
 
 //19. Определить номер четверти плоскости, в которой находится точка с координатами Х и У, причем X ≠ 0 и Y ≠ 0
 
